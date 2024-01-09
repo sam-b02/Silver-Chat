@@ -23,3 +23,4 @@ a.close()
 
 
 #17318 questions and answers
+#counts number of questions and answers

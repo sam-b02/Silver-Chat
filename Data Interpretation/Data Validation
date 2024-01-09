@@ -3,7 +3,9 @@ import tiktoken # for token counting
 import numpy as np
 from collections import defaultdict
 
-data_path = r'C:\Users\samar\Visual Studio Projects\json data\revise1.jsonl'
+#this is just openai's code for estimating cost and tokens needed for model. I've simply combined the programs and repurposed it for my use
+
+data_path = r'json data\revise1.jsonl'
 
 # Load the dataset
 with open(data_path, 'r', encoding='utf-8') as f:

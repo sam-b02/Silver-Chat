@@ -26,12 +26,13 @@ keywords = [
     "Snapdeal", "Gaana", "Saavn", "JioSaavn", "Aarogya Setu", "COWIN", "Digilocker"
 ]
 
+#this was meant to be for Googles NQ dataset. Didn't work out well enough, not enough high quality tech questions.
 
-output_file_path = r"C:\Users\samar\Visual Studio Projects\Data Interpretation\relevant_questions.txt"
+output_file_path = r"relevant_questions.txt"
 counter = 0
 
 print("Starting the filtering process...")
-with open(r"C:\Users\samar\Visual Studio Projects\Data Interpretation\nq.jsonl", "r") as file, \
+with open(r"nq.jsonl", "r") as file, \
      open(output_file_path, "w", encoding='utf-8') as output_file:
     
     print("file opened")

@@ -1,6 +1,8 @@
 from openai import OpenAI
 client = OpenAI()
 
+question = input("enter question")
+
 response = client.chat.completions.create(
   model="ft:gpt-3.5-turbo-0613:personal::8XVerlw6",
   messages=[
