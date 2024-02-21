@@ -19,11 +19,17 @@ Stores both the Unclean and Clean data. All the unformatted questions and answer
 
 Data Interpretation - 
 Each file is described sequentially.
+
  Cleans the data, removes special characters, encodes and formats it properly.
+ 
  Counts the number of scraped questions and answers (17318 questions and answers)
+ 
  Validates the data, tokenizes it and estimates the cost and number of epochs needed for proper training
+ 
  Removes bugs in the data, strips it.
+ 
  Creates the first JSON based on scraped data
+ 
  Creates the second JSON based on handwritten prompts
  
 Data Scraping - 
@@ -39,5 +45,9 @@ My Past Endevours -
 Google's natural dataset, filtered for tech questions, that was used in combination with the scraped data. Took a LOT of human filtering and reorganizing. you can see the semi filtered questions. most of them are completely unrelated to tech.
 
 # **FUTURE DIRECTION**
-Silver 2.0 is being developed and will be uploaded soon. Contains a finetuned system prompt and better datasets. 
+Silver 2.0 is being developed and will be uploaded soon. Contains a finetuned system prompt and better datasets. Please visit the website and read the blogs (https://silversupport.in/links) to be completely updated. 
+
+*Silver cannot be run by the public as of now. This will be changed in the near future. 
+
+
 
