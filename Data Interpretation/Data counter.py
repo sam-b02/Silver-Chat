@@ -1,7 +1,7 @@
 import json
 
-q = open("questions.txt", "r", encoding = "utf-8")
-a = open("answers.txt", "r", encoding = "utf-8")
+q = open("questions.txt", "r", encoding="utf-8")
+a = open("answers.txt", "r", encoding="utf-8")
 
 count, count1 = 0, 0
 for line in q:
@@ -22,5 +22,5 @@ q.close()
 a.close()
 
 
-#17318 questions and answers
-#counts number of questions and answers
+# 17318 questions and answers
+# counts number of questions and answers

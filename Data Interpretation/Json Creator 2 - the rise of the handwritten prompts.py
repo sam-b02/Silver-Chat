@@ -1,10 +1,10 @@
-f = open(r"base data\data.txt", "r", encoding= "utf-8")
+f = open(r"base data\data.txt", "r", encoding="utf-8")
 
-question = open (r"base data\questions.txt", "w")
-answer = open (r"base data\answers.txt", "w")
+question = open(r"base data\questions.txt", "w")
+answer = open(r"base data\answers.txt", "w")
 
 
-#adds handwritten prompts to file as well
+# adds handwritten prompts to file as well
 count = 1
 for line in f:
     if count % 2 == 0:
