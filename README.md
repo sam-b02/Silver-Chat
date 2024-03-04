@@ -20,23 +20,22 @@ Stores both the Unclean and Clean data. All the unformatted questions and answer
 Data Interpretation - 
 Each file is described sequentially.
 
-Data Cleaner
-
+Data Cleaner:
  Cleans the data, removes special characters, encodes and formats it properly.
 
-Data Counter
+Data Counter:
  Counts the number of scraped questions and answers (17318 questions and answers)
 
-Data Validation
+Data Validation:
  Validates the data, tokenizes it and estimates the cost and number of epochs needed for proper training
 
-Final Clean
+Final Clean:
  Removes bugs in the data, strips it.
 
-Json Creator
+Json Creator:
  Creates the first JSON based on scraped data
 
-Json Creator 2
+Json Creator 2:
  Creates the second JSON based on handwritten prompts
  
 Data Scraping - 
