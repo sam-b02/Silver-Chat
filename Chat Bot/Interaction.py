@@ -1,15 +1,13 @@
 from openai import OpenAI
 
 
-def askQuestion():
+def askQuestion(messages):
     client = OpenAI()
 
     response = client.chat.completions.create(
         model="ft:gpt-3.5-turbo-0613:personal::8XVerlw6",
-        messages=[arr],
+        messages=messages,
     )
-
-    print(response.choices[0].message.content)
     return response.choices[0].message.content
 
 
@@ -24,7 +22,6 @@ Empowerment: Our goal is to empower you to navigate technology confidently. By w
 With Silver by your side, no tech problem is too daunting. Let's get started by describe your issue, and Silver will guide you to a solution!"""
 
 
-
 arr = [
     {
         "role": "system",
@@ -36,13 +33,17 @@ print(
     "Hi! I'm Silver, someone who can guide you with any tech help you need! Write below if you have any problems you want me to help you solve!"
 )
 
-with open(r"Silver-Chat\Inputs and Outputs\UserInput.txt", "w") as file:
-    UserInput = input()
-    UserInput = UserInput.strip().lower()
-    print(UserInput)
+counter = 0
+
+while True:
+    UserInput = input().strip().lower()
     arr.append({"role": "user", "content": UserInput})
-    print(arr)
-    Q = askQuestion()
-    arr.append(
-        {"role": "assistant", "content": Q},
-    )
+
+    # Ask a question based on accumulated messages
+    Q = askQuestion(arr)
+
+    # Print the response from the chatbot
+    print(Q)
+
+    # Append the chatbot's response to the messages
+    arr.append({"role": "assistant", "content": Q})
