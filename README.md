@@ -50,10 +50,12 @@ Contains both JSON files, as well as having them be split up into test and train
 **My Past Endevours** - 
 Google's natural dataset, filtered for tech questions, that was used in combination with the scraped data. Took a LOT of human filtering and reorganizing. you can see the semi filtered questions. most of them are completely unrelated to tech.
 
+# **USAGE**
+
+Silver cannot be run by the public due to api keys being needed. You can find an online version at (https://silversupport.in)
+
 # **FUTURE DIRECTION**
-Silver 2.0 is being developed and will be uploaded soon. Contains a finetuned system prompt and better datasets. Please visit the website and read the blogs (https://silversupport.in/links) to be completely updated. 
 
-*Silver cannot be run by the public as of now. This will be changed in the near future. 
-
+Silver 2.0 is still being actively developed on. It contains a finetuned system prompt and better datasets. Please visit the website and read the blogs (https://silversupport.in/links) to be completely updated. 
 
 
