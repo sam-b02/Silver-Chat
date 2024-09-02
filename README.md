@@ -1,5 +1,7 @@
 # Silver-Chat 1.0
 
+This repository contains the collection of files and scripts used to fine-tune Silver-Chat, an AI assistant designed to help older adults with technology-related issues.
+
 Silver-Chat is a fine-tuned GPT model focused on assisting older adults with technology-related issues. It utilizes handwritten prompts and scraped data from forums to provide accurate and helpful responses.
 
 **Website:** [Silver Support](https://silversupport.in/)
@@ -37,7 +39,7 @@ Includes Google's natural dataset, filtered for tech questions, used in combinat
 
 ## Usage
 
-Silver cannot be run publicly due to API keys being needed. However, you can access an online version at [Silver Support](https://silversupport.in/).
+You can access an online version at [Silver Support](https://silversupport.in/).
 
 ## Future Direction
 
