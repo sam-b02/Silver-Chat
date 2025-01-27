@@ -9,7 +9,7 @@ Silver-Chat is a fine-tuned GPT model focused on assisting older adults with tec
 This project/website is no longer maintained, for a multitude of reasons. 
 
 
-**Website:** [Silver Support](https://silversupport.in/)
+**Website:** (DEPRECATED) [Silver Support](https://silversupport.in/)
 
 ## Files
 
