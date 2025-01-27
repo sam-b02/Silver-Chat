@@ -4,6 +4,11 @@ This repository contains the collection of files and scripts used to fine-tune S
 
 Silver-Chat is a fine-tuned GPT model focused on assisting older adults with technology-related issues. It utilizes handwritten prompts and scraped data from forums to provide accurate and helpful responses.
 
+## Disclaimer
+
+This project/website is no longer maintained, for a multitude of reasons. 
+
+
 **Website:** [Silver Support](https://silversupport.in/)
 
 ## Files
