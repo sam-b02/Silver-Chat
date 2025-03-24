@@ -42,13 +42,9 @@ Includes both JSON files, split into test and training data, combined with data 
 ### My Past Endeavors
 Includes Google's natural dataset, filtered for tech questions, used in combination with scraped data.
 
-## Usage
+## Usage 
 
-You can access an online version at [Silver Support](https://silversupport.in/).
-
-## Future Direction
-
-Silver 2.0 is still actively being developed, aiming to include a fine-tuned system prompt and better datasets. For updates, visit the [Silver Support website](https://silversupport.in/links).
+You can access an online version at [Silver Support](https://silversupport.in/). (DEPRECATED)
 
 ## License
 
